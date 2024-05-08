@@ -1,3 +1,4 @@
+#Client
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.io.OutputStream;
@@ -33,3 +34,7 @@ public class JavaClient {
         System.out.println("Response : " + response.toString());
     }
 }
+
+
+#server
+
