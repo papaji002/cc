@@ -1,3 +1,5 @@
+
+#server
 from wsgiref.simple_server import make_server
 from spyne.application import Application
 from spyne.decorator import rpc
