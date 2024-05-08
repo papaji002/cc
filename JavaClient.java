@@ -1,4 +1,6 @@
-#Client
+#Client .java
+
+    
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.io.OutputStream;
@@ -36,7 +38,7 @@ public class JavaClient {
 }
 
 
-#server
+#server .py file
 
 from flask import Flask, request, jsonify
 app = Flask(__name__)
