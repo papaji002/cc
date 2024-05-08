@@ -1,5 +1,12 @@
+#client
+
+from zeep import Client
+client = Client('http://localhost:10000/?wsdl')
+result = client.service.add_numbers(5, 10)
+print(f"Result from the SOAP service:{result}")
 
 #server
+
 from wsgiref.simple_server import make_server
 from spyne.application import Application
 from spyne.decorator import rpc
